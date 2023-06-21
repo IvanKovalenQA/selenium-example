@@ -10,7 +10,7 @@ from selenium.webdriver.support.wait import WebDriverWait
     ('2024', 'Lexus', 'RX350', 'Luxury Sport Utility 4-Door'),
     ('1896', 'Duryea', 'Duryea', 'Base')
 ])
-@pytest.mark.regressiontest5
+@pytest.mark.regressiontest6
 def test_ebay_search_motors_multiple(browser, year, make, model, trim):
     base_url = 'https://www.ebay.com/'
     expected_title = 'Electronics, Cars, Fashion, Collectibles & More | eBay'

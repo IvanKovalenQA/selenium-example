@@ -11,7 +11,7 @@ from selenium.webdriver.support.wait import WebDriverWait
                              ('Bentley', 'Continental', '20003', 'Used'),
                              ('Land Rover', 'Range Rover Sport', '00001', 'New')
                          ])
-@pytest.mark.regressiontest
+@pytest.mark.regressiontest2
 def test_ebay_search_vehicle_multiple(browser, make, model, postal_code, condition):
     base_url = 'https://www.ebay.com/'
     expected_title = 'Electronics, Cars, Fashion, Collectibles & More | eBay'
