@@ -11,11 +11,11 @@ from selenium.webdriver.support.wait import WebDriverWait
                              ('Bentley', 'Continental', '20003', 'Used'),
                              ('Land Rover', 'Range Rover Sport', '00001', 'New')
                          ])
-@pytest.mark.regressiontest2
+@pytest.mark.regressiontest
 def test_ebay_search_vehicle_multiple(browser, make, model, postal_code, condition):
     base_url = 'https://www.ebay.com/'
     expected_title = 'Electronics, Cars, Fashion, Collectibles & More | eBay'
-
+    #navigate to Ebat Home Page
     browser.get(base_url)
     assert expected_title in browser.title
     assert base_url in browser.current_url
