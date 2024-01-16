@@ -1,0 +1,8 @@
+[4390:775:1108/160158.174256:WARNING:chrome_main_delegate.cc(660)] This is Chrome version 119.0.6045.105 (not a warning)
+[4390:775:1108/160158.471530:INFO:policy_logger.cc(145)] :components/enterprise/browser/controller/chrome_browser_cloud_management_controller.cc(168) Starting CBCM Controller Initialization
+[4390:775:1108/160158.471608:INFO:policy_logger.cc(145)] :components/enterprise/browser/controller/chrome_browser_cloud_management_controller.cc(196) No machine level policy manager exists.
+[4390:775:1108/160201.672582:INFO:CONSOLE(0)] "The Content Security Policy directive 'upgrade-insecure-requests' is ignored when delivered in a report-only policy.", source: https://accounts.shopify.com/lookup?rid=51c399c6-aebf-4a8d-8c53-6e028808b15a (0)
+[4390:775:1108/160201.904842:INFO:CONSOLE(3)] "The Content Security Policy directive 'upgrade-insecure-requests' is ignored when delivered in a report-only policy.", source: https://hcaptcha.com/1/api.js?hl=en&onload=captchaEnterpriseOnloadCallback&render=explicit (3)
+[4390:775:1108/160201.910344:INFO:CONSOLE(3)] "The Content Security Policy directive 'upgrade-insecure-requests' is ignored when delivered in a report-only policy.", source: https://hcaptcha.com/1/api.js?hl=en&onload=captchaEnterpriseOnloadCallback&render=explicit (3)
+[4390:775:1108/160201.911073:INFO:CONSOLE(3)] "The Content Security Policy directive 'upgrade-insecure-requests' is ignored when delivered in a report-only policy.", source: https://hcaptcha.com/1/api.js?hl=en&onload=captchaEnterpriseOnloadCallback&render=explicit (3)
+[4390:775:1108/160207.224194:WARNING:pref_notifier_impl.cc(41)] Pref observer for media_router.cast_allow_all_ips found at shutdown.
