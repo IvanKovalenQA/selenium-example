@@ -33,4 +33,10 @@ password_field.send_keys('Egnition2020!')
 browser.find_element(By.ID, 'passwordNext').click()
 time.sleep(15)
 
-#
+#TEST COMMIT TO THIS FILE
+#Click on "Actions"
+browser.find_element(By.CSS_SELECTOR, '.UKfhs .Polaris-LegacyStack__Item_yiyol:nth-of-type(1) .Polaris-LegacyStack__Item_yiyol:nth-of-type(1) [type]').click()
+time.sleep(3)
+#Click on "Settings" in Action's dropdown
+browser.find_element(By.CSS_SELECTOR, '.Polaris-BlockStack--listReset_1gz07 > .Polaris-Box_375yx:nth-of-type(1) .Polaris-ActionList__Text_yj3uv').click()
+time.sleep(3)
