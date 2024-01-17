@@ -57,3 +57,6 @@ browser.find_element(By.CSS_SELECTOR, '.tab-content > div:nth-of-type(1) div:nth
 browser.find_element(By.CSS_SELECTOR, '.tab-content > div:nth-of-type(1) div:nth-of-type(5) .text-center div').click()
 time.sleep(7)
 
+#WANT TO TEST BRANCHES
+UPDATEUPDATE
+
