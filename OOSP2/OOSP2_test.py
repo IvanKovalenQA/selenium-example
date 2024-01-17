@@ -37,6 +37,23 @@ time.sleep(15)
 #Click on "Actions"
 browser.find_element(By.CSS_SELECTOR, '.UKfhs .Polaris-LegacyStack__Item_yiyol:nth-of-type(1) .Polaris-LegacyStack__Item_yiyol:nth-of-type(1) [type]').click()
 time.sleep(3)
+
 #Click on "Settings" in Action's dropdown
 browser.find_element(By.CSS_SELECTOR, '.Polaris-BlockStack--listReset_1gz07 > .Polaris-Box_375yx:nth-of-type(1) .Polaris-ActionList__Text_yj3uv').click()
 time.sleep(3)
+
+#Enter OOSP2 staging frame
+iframe = browser.find_element(By.NAME, 'app-iframe')
+browser.switch_to.frame(iframe)
+time.sleep(1)
+
+#Slide down
+browser.execute_script("window.scrollBy(0, 300);")
+
+#Enable Push-down OOS checkbox
+browser.find_element(By.CSS_SELECTOR, '.tab-content > div:nth-of-type(1) div:nth-of-type(4) .text-center div').click()
+
+#Enable Push-up new checkbox
+browser.find_element(By.CSS_SELECTOR, '.tab-content > div:nth-of-type(1) div:nth-of-type(5) .text-center div').click()
+time.sleep(7)
+
